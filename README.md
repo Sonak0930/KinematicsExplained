@@ -21,4 +21,13 @@ transformation을 할 때 좌표축을 언급하는 이유는, vector대상으�
 축 자체를 회전 시켜도 결과가 동일하기 때문입니다. 따라서 이해하기 쉽도록 **좌표축이 회전한다** 라고 설명하겠습니다.
 
 어쨌든 j0 -> j1 회전으로 좌표축이 변하게 되는데, 이 회전을 정의하기 위해서는 4개의 파라미터가 필요합니다.
-먼저 길이를 나타내는 파라미터를 정의하겠습니다. a_i와 d_i가 있습니다. 각각 
+
+<img width="851" height="633" alt="image" src="https://github.com/user-attachments/assets/004a25b9-c6e8-4a71-9536-7bff75d22036" />
+
+먼저 길이를 나타내는 파라미터를 정의하겠습니다. a_i와 d_i가 있습니다. 이 파라미터들은 j0과 j1사이의 translation position을 정의합니다.
+
+<img width="1040" height="710" alt="image" src="https://github.com/user-attachments/assets/f2ce2ad1-ad04-46db-8e2d-51808f6a60c7" />
+
+그 다음으로는 angle rotation을 정의합니다.
+
+
